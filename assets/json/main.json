@@ -2,7 +2,7 @@
 	"options": {
 		"preventAutoAppend": true,
 		"preventAutoFocus": true,
-		"submitCallback": "window.onFormlessSubmited"
+		"submitCallback": "window.onFormlessSubmitted"
 	},
 	"tags": [
 		{
@@ -17,7 +17,7 @@
 			"tag": "select",
 			"cf-input-placeholder": "Ask away",
 			"size": "2",
-			"cf-questions": "Nice to meet you {previous-answer}!&&I'm currently trapped in this website!&&Feel free to ask me something...",
+			"cf-questions": "Nice to meet you, {previous-answer}!&&I'm currently trapped in this website!&&Feel free to ask me something...",
 			"children":[
 				{
 					"tag": "option",
@@ -38,7 +38,6 @@
 			"tag": "select",
 			"cf-input-placeholder": "Ask away",
 			"size": "2",
-			"cf-conditional-main-opts": "projects",
 			"cf-questions": "Which of my projects would you like to learn more about?",
 			"children":[
 				{

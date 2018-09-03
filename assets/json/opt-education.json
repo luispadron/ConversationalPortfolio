@@ -3,7 +3,6 @@
         {
 			"tag": "select",
             "cf-input-placeholder": "Ask for more details...",
-            "cf-conditional-experience-opts": "education",
 			"size": "3",
 			"cf-questions": "I'm currently studying Computer Science at the University of Michigan in Ann Arbor.",
 			"children":[

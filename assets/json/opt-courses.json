@@ -3,7 +3,6 @@
         {
             "tag": "select",
             "cf-input-placeholder": "Pick one",
-            "cf-conditional-education-opts": "courses",
 			"size": "2",
 			"cf-questions": "I've taken a few interesting courses including:&&Programming and Data Structures&&Computer Architecture&&Web Systems&&Advanced Object-Oriented Programming",
 			"children":[
