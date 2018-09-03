@@ -1,8 +1,65 @@
+body {
+  background-color: #F4F9FD;
+  overflow: hidden;
+}
+
 #cf-context { 
-    width: 100vw; 
-    height: 100vh;
-  }
-  #form {
-    height: 0px;
-    overflow: hidden;
-  }
+  width: 100vw; 
+  height: 100vh;
+}
+
+#form {
+  height: 0px;
+  overflow: hidden;
+}
+
+.custom-theme .conversational-form cf-chat-response.user thumb {
+  height: 64px;
+  width: 64px;
+}
+
+.custom-theme .conversational-form cf-chat-response.robot thumb {
+  height: 64px;
+  width: 64px;
+}
+
+
+.custom-theme .conversational-form .conversational-form-inner {
+  padding: 0 5% 25px 5%;
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  bottom: 0;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+.custom-theme .conversational-form cf-chat-response.user {
+  padding-right: 80px;
+}
+
+.custom-theme .conversational-form cf-chat-response.robot {
+  padding-left: 80px;
+}
+
+.custom-theme .conversational-form {
+  background-color: #F4F9FD;
+}
+
+.custom-theme .conversational-form cf-chat-response.robot text > p {
+  background-color: white;
+}
+
+.custom-theme .conversational-form cf-button:hover {
+  background-color: #e3f1ff;
+}
+
+.custom-theme .conversational-form textarea {
+  border-radius: 20px;
+}

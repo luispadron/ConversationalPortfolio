@@ -2,7 +2,8 @@
 	"options": {
 		"preventAutoAppend": true,
 		"preventAutoFocus": true,
-		"submitCallback": "window.onFormlessSubmitted"
+		"robotImage": "assets/img/me.png",
+		"userImage": "assets/img/user.png"
 	},
 	"tags": [
 		{
