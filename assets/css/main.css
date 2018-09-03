@@ -1,16 +1,20 @@
 body {
   background-color: #F4F9FD;
   overflow: hidden;
+  overflow-x: hidden;
 }
 
 #cf-context { 
   width: 100vw; 
   height: 100vh;
+  overflow: hidden;
+  overflow-x: hidden;
 }
 
 #form {
   height: 0px;
   overflow: hidden;
+  overflow-x: hidden;
 }
 
 .custom-theme .conversational-form cf-chat-response.user thumb {
