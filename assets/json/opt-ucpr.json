@@ -8,19 +8,19 @@
 			"children":[
 				{
 					"tag": "option",
-					"name": "project-opts",
+					"name": "ucpr-opts",
 					"cf-label": "Tell me about GradePoint",
 					"value": "opt-gradepoint"
 				},
 				{
 					"tag": "option",
-					"name": "project-opts",
+					"name": "ucpr-opts",
 					"cf-label": "What about EyeBot",
 					"value": "opt-eyebot"
 				},
 				{
 					"tag": "option",
-					"name": "project-opts",
+					"name": "ucpr-opts",
 					"cf-label": "Let's talk about your experience",
 					"value": "opt-experience"
 				}

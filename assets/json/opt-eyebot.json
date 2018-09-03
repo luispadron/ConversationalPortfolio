@@ -8,19 +8,19 @@
 			"children":[
 				{
 					"tag": "option",
-					"name": "project-opts",
+					"name": "eyebot-opts",
 					"cf-label": "Tell me about GradePoint",
 					"value": "opt-gradepoint"
                 },
                 {
 					"tag": "option",
-					"name": "project-opts",
+					"name": "eyebot-opts",
 					"cf-label": "Let's talk about UICircularProgressRing",
 					"value": "opt-ucpr"
 				},
 				{
 					"tag": "option",
-					"name": "project-opts",
+					"name": "eyebot-opts",
 					"cf-label": "Tell me about your experience",
 					"value": "opt-experience"
 				}
