@@ -1,0 +1,31 @@
+{
+"tags": [
+        {
+			"tag": "select",
+			"cf-input-placeholder": "Ask away",
+			"size": "1",
+			"cf-conditional-main-opts": "experience",
+			"cf-questions": "What about my experience do you want to learn about?",
+			"children":[
+				{
+					"tag": "option",
+					"name": "experience-opts",
+					"cf-label": "Education",
+					"value": "opt-education"
+				},
+				{
+					"tag": "option",
+					"name": "experience-opts",
+					"cf-label": "Work experience",
+					"value": "opt-work"
+				},
+				{
+					"tag": "option",
+					"name": "experience-opts",
+					"cf-label": "Languages",
+					"value": "opt-languages"
+				}
+			]
+		}
+    ]
+}

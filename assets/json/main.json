@@ -1,0 +1,59 @@
+{
+	"options": {
+		"preventAutoAppend": true,
+		"preventAutoFocus": true,
+		"submitCallback": "window.onFormlessSubmited"
+	},
+	"tags": [
+		{
+			"tag": "input",
+			"type": "text",
+			"id": "intro-name",
+			"cf-input-placeholder": "Your name",
+			"cf-questions": "Hey there!&&I'm Luis.&&What's your name?"
+		},
+
+		{
+			"tag": "select",
+			"cf-input-placeholder": "Ask away",
+			"size": "1",
+			"cf-questions": "Nice to meet you {previous-answer}!&&I'm currently trapped in this website!&&Feel free to ask me something...",
+			"children":[
+				{
+					"tag": "option",
+					"name": "main-opts",
+					"cf-label": "Your experience",
+					"value": "opt-experience"
+				},
+				{
+					"tag": "option",
+					"name": "main-opts",
+					"cf-label": "Your projects",
+					"value": "opt-projects"
+				}
+			]
+		},
+		
+		{
+			"tag": "select",
+			"cf-input-placeholder": "Ask away",
+			"size": "1",
+			"cf-conditional-main-opts": "projects",
+			"cf-questions": "Which of my projects would you like to learn more about?",
+			"children":[
+				{
+					"tag": "option",
+					"name": "project-opts",
+					"cf-label": "GradePoint",
+					"value": "opt-gradepoint"
+				},
+				{
+					"tag": "option",
+					"name": "project-opts",
+					"cf-label": "Swift",
+					"value": "opt-swift"
+				}
+			]
+		}
+	]
+}
