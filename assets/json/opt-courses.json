@@ -1,0 +1,25 @@
+{
+    "tags": [
+        {
+            "tag": "select",
+            "cf-input-placeholder": "Pick one",
+            "cf-conditional-education-opts": "courses",
+			"size": "1",
+			"cf-questions": "I've taken a few interesting courses including:&&Programming and Data Structures&&Computer Architecture&&Web Systems&&Advanced Object-Oriented Programming",
+			"children":[
+				{
+					"tag": "option",
+					"name": "courses-opts",
+					"cf-label": "Go back",
+					"value": "opt-experience"
+				},
+				{
+					"tag": "option",
+					"name": "courses-opts",
+					"cf-label": "Goodbye!",
+					"value": "opt-end"
+                }
+			]
+        }
+    ]
+}
