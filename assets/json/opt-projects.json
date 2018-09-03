@@ -1,0 +1,30 @@
+{
+    "tags": [
+        {
+			"tag": "select",
+			"cf-input-placeholder": "Pick one",
+			"size": "3",
+			"cf-questions": "Which of my projects would you like to learn more about?",
+			"children":[
+				{
+					"tag": "option",
+					"name": "project-opts",
+					"cf-label": "GradePoint",
+					"value": "opt-gradepoint"
+				},
+				{
+					"tag": "option",
+					"name": "project-opts",
+					"cf-label": "UICircularProgressRing",
+					"value": "opt-ucpr"
+				},
+				{
+					"tag": "option",
+					"name": "project-opts",
+					"cf-label": "EyeBot",
+					"value": "opt-eyebot"
+				}
+			]
+		}
+    ]
+}

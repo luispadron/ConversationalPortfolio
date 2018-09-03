@@ -32,27 +32,6 @@
 					"value": "opt-projects"
 				}
 			]
-		},
-		
-		{
-			"tag": "select",
-			"cf-input-placeholder": "Ask away",
-			"size": "2",
-			"cf-questions": "Which of my projects would you like to learn more about?",
-			"children":[
-				{
-					"tag": "option",
-					"name": "project-opts",
-					"cf-label": "GradePoint",
-					"value": "opt-gradepoint"
-				},
-				{
-					"tag": "option",
-					"name": "project-opts",
-					"cf-label": "Swift",
-					"value": "opt-swift"
-				}
-			]
 		}
 	]
 }

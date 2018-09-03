@@ -3,7 +3,7 @@
         {
 			"tag": "select",
 			"cf-input-placeholder": "Ask away",
-			"size": "3",
+			"size": "4",
 			"cf-questions": "What about my experience do you want to learn about?",
 			"children":[
 				{
@@ -23,6 +23,12 @@
 					"name": "experience-opts",
 					"cf-label": "Languages",
 					"value": "opt-languages"
+				},
+				{
+					"tag": "option",
+					"name": "experience-opts",
+					"cf-label": "Actually, tell me about your projects",
+					"value": "opt-projects"
 				}
 			]
 		}
