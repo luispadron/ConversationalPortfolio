@@ -16,7 +16,7 @@
 		{
 			"tag": "select",
 			"cf-input-placeholder": "Ask away",
-			"size": "1",
+			"size": "2",
 			"cf-questions": "Nice to meet you {previous-answer}!&&I'm currently trapped in this website!&&Feel free to ask me something...",
 			"children":[
 				{
@@ -37,7 +37,7 @@
 		{
 			"tag": "select",
 			"cf-input-placeholder": "Ask away",
-			"size": "1",
+			"size": "2",
 			"cf-conditional-main-opts": "projects",
 			"cf-questions": "Which of my projects would you like to learn more about?",
 			"children":[

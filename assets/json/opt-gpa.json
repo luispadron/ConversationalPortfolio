@@ -4,8 +4,8 @@
             "tag": "select",
             "cf-input-placeholder": "Pick one",
             "cf-conditional-education-opts": "gpa",
-			"size": "1",
-			"cf-questions": "My current GPA is 3.625",
+			"size": "2",
+			"cf-questions": "My current GPA at the University of Michigan is a 3.625",
 			"children":[
 				{
 					"tag": "option",

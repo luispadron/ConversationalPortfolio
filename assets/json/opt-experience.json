@@ -3,7 +3,7 @@
         {
 			"tag": "select",
 			"cf-input-placeholder": "Ask away",
-			"size": "1",
+			"size": "3",
 			"cf-conditional-main-opts": "experience",
 			"cf-questions": "What about my experience do you want to learn about?",
 			"children":[
