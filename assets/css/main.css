@@ -1,20 +1,26 @@
+html {
+  overflow: hidden;
+  margin: 0;
+  height: 100%;
+}
+
 body {
   background-color: #F4F9FD;
   overflow: hidden;
-  overflow-x: hidden;
+  margin: 0;
+  height: 100%;
 }
 
 #cf-context { 
   width: 100vw; 
   height: 100vh;
-  overflow: hidden;
-  overflow-x: hidden;
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
 }
 
 #form {
   height: 0px;
-  overflow: hidden;
-  overflow-x: hidden;
 }
 
 .custom-theme .conversational-form cf-chat-response.user thumb {
@@ -25,23 +31,6 @@ body {
 .custom-theme .conversational-form cf-chat-response.robot thumb {
   height: 64px;
   width: 64px;
-}
-
-
-.custom-theme .conversational-form .conversational-form-inner {
-  padding: 0 20px;
-  position: absolute;
-  width: 100%;
-  min-height: 100%;
-  max-height: 100%;
-  bottom: 0;
-  height: auto;
-  overflow: hidden;
-  margin-bottom: auto;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: flex-end;
-  align-items: baseline;
 }
 
 .custom-theme .conversational-form cf-chat-response.user {
