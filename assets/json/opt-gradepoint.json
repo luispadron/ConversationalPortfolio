@@ -4,7 +4,7 @@
 			"tag": "select",
 			"cf-input-placeholder": "Pick one",
 			"size": "3",
-			"cf-questions": "GradePoint is an iOS application available on the App Store!&&It helps students keep track of their progress in school.&&Written in Swift and with the latest iOS features, I also used no libraries in order to learn as much as possible about iOS development.&&You can check GradePoint out <a href='https://gradepoint.luispadron.com' target='_blank'>here.</a>",
+			"cf-questions": "GradePoint is an iOS application available on the App Store!&&<img src='assets/img/gradepoint.png'></img>&&It helps students keep track of their progress in school.&&Written in Swift and with the latest iOS features, I also used no libraries in order to learn as much as possible about iOS development.&&You can check GradePoint out <a href='https://gradepoint.luispadron.com' target='_blank'>here.</a>",
 			"children":[
 				{
 					"tag": "option",
