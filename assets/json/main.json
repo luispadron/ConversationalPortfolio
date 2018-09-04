@@ -18,7 +18,7 @@
 		{
 			"tag": "select",
 			"cf-input-placeholder": "Ask away",
-			"size": "3",
+			"size": "4",
 			"cf-questions": "Nice to meet you, {previous-answer}!&&I'm currently trapped in this website!&&Feel free to ask me something...",
 			"children":[
 				{
@@ -38,6 +38,12 @@
 					"name": "main-opts",
 					"cf-label": "Tell me about yourself",
 					"value": "opt-about"
+				},
+				{
+					"tag": "option",
+					"name": "main-opts",
+					"cf-label": "Let me see your resume",
+					"value": "opt-resume"
 				}
 			]
 		}

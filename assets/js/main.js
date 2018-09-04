@@ -1,7 +1,6 @@
 "use-strict"
 
 var convo;
-let step = 0
 
 // load json file with formless data
 window.onload = () => {
