@@ -11,6 +11,10 @@ function startConversation(json) {
     // add callback hooks..
     json.options.submitCallback = onFormlessSubmitted.bind(window);
     json.options.flowStepCallback = onStepCallback.bind(window);
+    let md = new MobileDetect(window.navigator.userAgent)
+    if (md.mobile()) {
+        json.options.hideUserInputOnNoneTextInput = true
+    }
     convo = window.cf.ConversationalForm.startTheConversation(json)
     document.getElementById("cf-context").appendChild(convo.el)
 }
