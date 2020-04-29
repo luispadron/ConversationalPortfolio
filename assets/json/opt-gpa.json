@@ -4,18 +4,18 @@
             "tag": "select",
             "cf-input-placeholder": "Pick one",
 			"size": "2",
-			"cf-questions": "My current GPA at the University of Michigan is a 3.625",
+			"cf-questions": "My GPA at the University of Michigan was a 3.625",
 			"children":[
 				{
 					"tag": "option",
 					"name": "gpa-opts",
-					"cf-label": "Go back",
+					"cf-label": "About your experience",
 					"value": "opt-experience"
 				},
 				{
 					"tag": "option",
 					"name": "gpa-opts",
-					"cf-label": "Goodbye!",
+					"cf-label": "Cool, cya!",
 					"value": "opt-end"
                 }
 			]

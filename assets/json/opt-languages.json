@@ -9,7 +9,7 @@
                     {
                         "tag": "option",
                         "name": "languages-opts",
-                        "cf-label": "Go back",
+                        "cf-label": "Tell me about your experience",
                         "value": "opt-experience"
                     },
                     {

@@ -4,18 +4,18 @@
             "tag": "select",
             "cf-input-placeholder": "Pick one",
 			"size": "2",
-			"cf-questions": "I've taken a few interesting courses including:&&Programming and Data Structures&&Computer Architecture&&Web Systems&&Advanced Object-Oriented Programming",
+			"cf-questions": "I've taken a few interesting courses including:&&Programming and Data Structures&&Computer Architecture&&Web Systems&&Advanced Object-Oriented Programming&&Compiler construction",
 			"children":[
 				{
 					"tag": "option",
 					"name": "courses-opts",
-					"cf-label": "Go back",
+					"cf-label": "Your experience",
 					"value": "opt-experience"
 				},
 				{
 					"tag": "option",
 					"name": "courses-opts",
-					"cf-label": "Goodbye!",
+					"cf-label": "Cool, goodbye!",
 					"value": "opt-end"
                 }
 			]
