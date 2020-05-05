@@ -4,7 +4,7 @@
 			"tag": "select",
 			"cf-input-placeholder": "Pick one",
 			"size": "3",
-			"cf-questions": "You can see my resume at <a href='https://drive.google.com/open?id=1pPpuqQVgxEl_3dslgCNb0p-EV0XH6UIY' target='_blank'>this link here.</a>",
+			"cf-questions": "You can see my resume at <a href='https://docs.google.com/document/d/1bD6MUGGwoclfAg5Ooe5aGN57Hj5UvtjsfcHV_bIoyak/edit?usp=sharing' target='_blank'>this link here.</a>",
 			"children":[
 				{
 					"tag": "option",
